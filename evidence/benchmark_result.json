@@ -1,0 +1,42 @@
+{
+  "load_time_seconds": 2.9266,
+  "training_time_seconds": 1.69,
+  "best_iteration": 1,
+  "auc_roc": 0.9517,
+  "accuracy": 0.998947,
+  "f1_score": 0.7273,
+  "precision": 0.6557,
+  "recall": 0.8163,
+  "inference_latency_1_row_ms": 1.204,
+  "inference_batch_1000_rows_ms": 1.39,
+  "inference_throughput_rows_per_sec": 718110.9,
+  "table_summary": {
+    "Thời gian load data": "2.9266 s",
+    "Thời gian training": "1.6900 s",
+    "Best iteration": 1,
+    "AUC-ROC": "0.9517",
+    "Accuracy": "0.998947",
+    "F1-Score": "0.7273",
+    "Precision": "0.6557",
+    "Recall": "0.8163",
+    "Inference latency (1 row)": "1.204 ms",
+    "Inference throughput (1000 rows)": "1.39 ms (718,111 rows/s)"
+  },
+  "dataset_info": {
+    "dataset_file": "/home/ubuntu/ml-benchmark/creditcard.csv",
+    "total_samples": 284807,
+    "train_samples": 227845,
+    "test_samples": 56962,
+    "num_features": 30,
+    "fraud_samples": 492,
+    "fraud_ratio_percent": 0.1727
+  },
+  "system_info": {
+    "os": "Linux 6.8.0-1066-aws",
+    "machine": "x86_64",
+    "cpu_cores": 2,
+    "python_version": "3.10.12",
+    "lightgbm_version": "4.7.0"
+  },
+  "timestamp": "2026-10-02 10:45:07"
+}
